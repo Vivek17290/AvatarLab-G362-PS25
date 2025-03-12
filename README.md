@@ -23,11 +23,11 @@ This project brings avatars to life by creating realistic talking head animation
 
 ![Architecture Diagram](image.png)
 
-
+<br>
 ## 📌 Workflow Diagram
 
 ![Workflow Diagram](image-1.png)
-
+<br>
 
 ## 📌 Research Paper Explanations
 
@@ -37,10 +37,10 @@ DiffTalk is an approach for developing audio-driven talking head animation using
 
 #### Key Contributions:
 
-- **Realistic Animations**:
-- **Works on Any Face**:
-- **Seamless Motion**:
-- **High-Quality Lip-Sync**:
+- **Realistic Animations**
+- **Works on Any Face**
+- **Seamless Motion**
+- **High-Quality Lip-Sync**
 
 #### Methodology:
 
