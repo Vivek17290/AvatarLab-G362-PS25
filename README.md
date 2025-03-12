@@ -22,8 +22,8 @@ This project brings avatars to life by creating realistic talking head animation
 ## 📌 Architecture Diagram
 
 ![Architecture Diagram](image.png)
-
 <br>
+
 ## 📌 Workflow Diagram
 
 ![Workflow Diagram](image-1.png)
