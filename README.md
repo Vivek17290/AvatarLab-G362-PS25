@@ -85,7 +85,7 @@ Small-E proves that high-quality speech synthesis doesn't have to be resource-he
 - **Member 5**: [PICHAPATI ADI ASWATHA REDDY KMIT](https://github.com/aswath-reddy)
 - **Member 6**: [PANDIT VIVEK KUMAR](https://github.com/Vivek17290)
 
----
+--- 
 
 <div align="center">
 2025 AvatarLab Team | G362-PS25
