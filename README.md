@@ -37,9 +37,9 @@ DiffTalk is an approach for developing audio-driven talking head animation using
 
 #### Key Contributions:
 
-- **Diffusion-Based Animation**:
-- **Generalization Across Faces**:
-- **Temporal Coherence**:
+- **Realistic Animations**:
+- **Works on Any Face**:
+- **Seamless Motion**:
 - **High-Quality Lip-Sync**:
 
 #### Methodology:
