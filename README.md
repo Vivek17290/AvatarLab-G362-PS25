@@ -11,7 +11,7 @@
 ## 📌 Introduction
 
 ### Purpose of the Project
-This project brings avatars to life by creating realistic talking head animations. It uses DiffTalk for smooth lip-syncing and Small E for natural-sounding voice synthesis.
+This Project brings avatars to life by creating realistic talking head animations that move naturally in sync with speech. By leveraging DiffTalk, it ensures smooth and accurate lip-syncing, while Small E provides high-quality, natural-sounding voice synthesis. This combination enables the creation of expressive, human-like digital characters.
 
 ### Applications of the Project
 - **Virtual Assistants**: Make AI chatbots more expressive with animated faces.
@@ -21,19 +21,18 @@ This project brings avatars to life by creating realistic talking head animation
 
 ## 📌 Architecture Diagram
 
-![Architecture Diagram](image.png)
+![Architecture Diagram](./assests/Architecture.png)
 <br>
 
 ## 📌 Workflow Diagram
 
-![Workflow Diagram](image-1.png)
+![Workflow Diagram](./assests/WorkFlow.png)
 <br>
 
 ## 📌 Research Paper Explanations
 
-### DiffTalk
-
-DiffTalk is an approach for developing audio-driven talking head animation using diffusion models.
+## DiffTalk
+The DiffTalk model is a state-of-the-art deep learning framework designed for realistic talking head animation with high-quality lip-syncing. It utilizes diffusion models to generate smooth and natural lip movements that accurately align with speech audio.
 
 #### Key Contributions:
 
@@ -44,15 +43,18 @@ DiffTalk is an approach for developing audio-driven talking head animation using
 
 #### Methodology:
 
-- **Audio Feature Extraction**: Converts speech into meaningful audio embeddings.
-- **Diffusion Model Training**: Uses a noise-to-image generation approach to predict facial movements.
-- **Frame Consistency**: Maintains coherence between consecutive frames for smooth animations.
+- **Input Processing**: Extracts speech features from the audio and prepares the avatar image.
+- **Diffusion-Based Lip-Sync Generation**: Uses a diffusion model to generate precise lip movements.
+- **Facial Expression and Motion Modeling**:  Captures subtle expressions and head movements for realism.
+- **Frame Rendering & Video Synthesis**:  Applies the generated movements to the avatar and renders smooth frames.
+- **Output: Realistic Talking Avatar**:  Produces a high-quality animated avatar in sync with the given speech.
+
 
 #### Results:
 DiffTalk is a game-changer in talking head animation, using diffusion models to create realistic, expressive, and adaptable AI avatars.
 It pushes the boundaries of natural-looking facial movements and lip-sync, making avatars feel more lifelike and engaging across different identities and voices.
-
-### Small E
+<br>
+## Small E
 
 Small-E is a lightweight text-to-speech (TTS) model that creates natural voices and can instantly clone any voice.
 Unlike traditional models that rely on heavy transformers, Small-E uses a more efficient Linear Causal Language Model (LCLM), making it faster, more resource-friendly, and capable of handling longer speech samples.
