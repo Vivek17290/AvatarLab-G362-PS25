@@ -427,7 +427,7 @@ export default function CreateAvatarP() {
       if (audio) formData.append('audio', audio)
 
       console.log("Sending request to the /createAvatar endpoint...")
-      const response = await fetch('http://127.0.0.1:1000/inf', {
+      const response = await fetch('http://127.0.0.1:1235/createAvatar', {
         method: 'POST',
         body: formData
       })
