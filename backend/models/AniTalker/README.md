@@ -135,12 +135,6 @@ python ./code/demo.py \
     --face_sr
 ```
 
-## 🎨 Web UI
-Launch the web interface for easier usage:
-```bash
-python code/webgui.py
-```
-
 ## 📁 Input Requirements
 
 ### Image Requirements
@@ -208,10 +202,6 @@ python code/webgui.py
 - Try different seed values
 - Adjust pose parameters gradually
 - Ensure input image meets requirements
-
-### Platform-Specific Guides
-- **Windows**: [Windows Tutorial](md_docs/run_on_windows.md)
-- **macOS**: [macOS Tutorial](md_docs/run_on_macOS.md)
 
 ## 📊 Output Information
 - **Resolution**: 256x256 (512x512 with super-resolution)
